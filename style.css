@@ -1,9 +1,9 @@
-/* --- Google Fonts (Asegúrate de tenerlas en tu HTML) --- */
+/* --- Google Fonts --- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Poppins:wght@500;700&display=swap');
 
 /* --- Variables y Reseteo Básico --- */
 :root {
-    /* Paleta Dark Mode (Ejemplo: Azul Eléctrico) */
+    /* Paleta Dark Mode */
     --bg-dark-primary: #121212;
     /* Fondo principal oscuro */
     --bg-dark-secondary: #1e1e1e;
@@ -33,10 +33,10 @@
     /* Otros */
     --border-radius-sm: 4px;
     --border-radius-md: 8px;
-    /* Sombra sutil adaptada para dark (a veces menos es más) */
+    /* Sombra sutil adaptada para dark */
     --box-shadow-dark: 0 4px 15px rgba(0, 0, 0, 0.2);
     --box-shadow-dark-hover: 0 6px 20px rgba(0, 0, 0, 0.3);
-    /* O brillo sutil como alternativa
+    /* brillo sutil (alternativa)
      --box-shadow-dark: 0 0 15px rgba(var(--accent-rgb, 0, 124, 240), 0.1);
      --box-shadow-dark-hover: 0 0 25px rgba(var(--accent-rgb, 0, 124, 240), 0.2); */
     --transition-speed: 0.3s;
@@ -420,7 +420,6 @@ img:hover {
     transition: all var(--transition-speed) ease;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    /* Opcional: Mayúsculas para más impacto */
 }
 
 .btn:hover {
@@ -487,7 +486,7 @@ button.btn:disabled {
     padding: 3rem;
     /* Más padding */
     border-radius: var(--border-radius-md);
-    /* border: 1px solid var(--border-color-dark); Sutil borde opcional */
+    /* border: 1px solid var(--border-color-dark); */
     box-shadow: var(--box-shadow-dark);
     /* Sombra */
 }
@@ -622,7 +621,7 @@ button.btn:disabled {
     text-decoration: underline;
 }
 
-/* --- Animación Fade-in (Misma lógica, se ve bien en dark) --- */
+/* --- Animación Fade-in --- */
 .fade-in {
     opacity: 0;
     transform: translateY(30px);
@@ -635,9 +634,7 @@ button.btn:disabled {
     transform: translateY(0);
 }
 
-/* --- Responsive (Ajustes Menores necesarios para Dark Mode) --- */
-/* Los breakpoints y la lógica general del responsive anterior se mantienen.
-   Solo se revisan paddings o tamaños si algo se ve mal específicamente en dark mode. */
+/* --- Responsive --- */
 
 @media (max-width: 768px) {
     html {

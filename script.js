@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // No muestra errores aquí
             submitButton.disabled = !checkFormValidity();
 
-            // Opcional: Si el usuario corrige un error, lo oculta inmediatamente
+            // Si el usuario corrige un error, lo oculta inmediatamente
             if (input.classList.contains('input-error')) {
                 // Si al escribir, el campo AHORA es válido (según la validación silenciosa), quitar el error
                 let shouldClear = false;
@@ -147,12 +147,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     formSuccessMessage.style.display = 'none';
                     // Asegurarse que los errores visuales también se limpian al resetear
                     [nombreInput, emailInput, mensajeInput].forEach(clearError);
-                }, 3000);
+                }, 5000);
                 // --- Fin Envío Simulado ---
 
             } else {
                 console.log('Formulario inválido, por favor corrige los errores.');
-                // Opcional: Enfocar el primer campo con error
+                // Enfocar el primer campo con error
                 const firstErrorInput = contactForm.querySelector('.input-error');
                 if (firstErrorInput) {
                     firstErrorInput.focus();
