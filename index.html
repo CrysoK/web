@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrysoK</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Puedes agregar aquí un enlace a una fuente de Google Fonts si lo deseas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header class="site-header">
+      <div class="container header-content">
+        <h1>Ezequiel</h1>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-main">
+
+      <!-- Sección Sobre Mí -->
+      <section id="sobre-mi" class="section container fade-in">
+        <h2>Sobre Mí</h2>
+        <div class="about-content">
+          <img src="images/profile.png" alt="Foto de perfil de Ezequiel" class="profile-pic">
+          <div>
+            <p>¡Hola! Soy Ezequiel L. Dzioba, un apasionado Analista de Sistemas con interés en el desarrollo de
+              software y la
+              inteligencia artificial. Me encanta crear soluciones útiles y eficientes.</p>
+            <p>Aquí encontrarás una selección de mis proyectos personales y profesionales, así como información sobre mi
+              y cómo contactarme. ¡Espero que disfrutes la visita!</p>
+          </div>
+        </div>
+        <!-- Mis Enlaces -->
+        <div id="mis-enlaces" class="subsection container fade-in">
+          <ul class="links-list">
+            <li><a href="mailto:contacto@crysok.com" target="_blank" rel="noopener noreferrer">Correo</a></li>
+            <li><a href="https://www.linkedin.com/in/EzequielDzioba/" target="_blank"
+                rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/CrysoK" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://t.me/crysok" target="_blank" rel="noopener noreferrer">Telegram</a></li>
+            <li><a href="https://www.instagram.com/crysok_/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </li>
+            <li><a href="https://x.com/crysok_" target="_blank" rel="noopener noreferrer">X</a></li>
+            <li><a href="https://www.twitch.tv/crysok_" target="_blank" rel="noopener noreferrer">Twitch</a></li>
+            <li><a href="https://www.youtube.com/@CrysoKTV" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Sección Proyectos -->
+      <section id="proyectos" class="section container fade-in">
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos-grid">
+          <article class="proyecto-card">
+            <img src="images/crysok.com.png" alt="Vista previa del sitio web crysok.com">
+            <div class="card-content">
+              <h3>Sitio web personal</h3>
+              <!-- <p>Una breve descripción de lo que hace este proyecto, las tecnologías utilizadas (React, Node.js, etc.) y
+                los desafíos superados.</p> -->
+              <p>Sitio web personal.</p>
+              <div class="project-links">
+                <a href="https://crysok.com" target="_blank" class="btn">Visitar</a>
+                <a href="https://github.com/CrysoK/crysok.com" target="_blank" class="btn btn-secondary">Ver Código</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="proyecto-card">
+            <img src="images/aleph.png" alt="Vista previa de Aleph">
+            <div class="card-content">
+              <h3>Aleph</h3>
+              <p>Lenguaje de programación e intérprete.</p>
+              <!-- <p>Otra descripción interesante. Quizás enfócate en el problema que resuelve o en algún aspecto técnico
+                destacable.</p> -->
+              <div class="project-links">
+                <a href="https://aleph.crysok.com" target="_blank" class="btn">Probar</a>
+                <a href="https://github.com/CrysoK/Aleph" target="_blank" class="btn btn-secondary">Ver Código</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="proyecto-card">
+            <img src="images/bot.png" alt="Vista previa de ExaBOT">
+            <div class="card-content">
+              <h3>ExaBOT</h3>
+              <p>Un BOT de Discord usando <a href="https://github.com/Pycord-Development/pycord"
+                  target="_blank">Pycord</a></p>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn btn-secondary">Ver Código</a>
+              </div>
+          </article>
+          <article class="proyecto-card">
+            <img src="images/squadenie.png" alt="Vista previa del Squad[Ñ]">
+            <div class="card-content">
+              <h3>SQUAD[Ñ]</h3>
+              <p>Sitio web simple hecho para un curso de desarrollo web.</p>
+              <div class="project-links">
+                <!-- Si solo tienes código, puedes omitir el botón de demo -->
+                <a href="https://squadenie.pages.dev/" target="_blank" class="btn">Visitar</a>
+                <a href="https://github.com/CrysoK/squadenie" target="_blank" class="btn btn-secondary">Ver Código</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Sección Contacto -->
+      <section id="contacto" class="section container fade-in">
+        <h2>Contacto</h2>
+        <p>¿Interesado en colaborar o tienes alguna pregunta? ¡No dudes en escribirme!</p>
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+            <span class="error-message" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="tu.email@ejemplo.com">
+            <span class="error-message" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+            <span class="error-message" id="mensaje-error"></span>
+          </div>
+          <button type="submit" id="submit-button" class="btn" disabled>Enviar Mensaje</button>
+          <p id="form-success-message" class="success-message" style="display: none;">¡Mensaje enviado con éxito!</p>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="current-year"></span> Ezequiel L. Dzioba. Todos los derechos reservados.</p>
+        <!-- Puedes agregar enlaces a redes sociales aquí también si prefieres -->
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
