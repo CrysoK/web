@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     formSuccessMessage.style.display = 'none';
                     // Asegurarse que los errores visuales también se limpian al resetear
                     [nombreInput, emailInput, mensajeInput].forEach(clearError);
-                }, 5000);
+                }, 10000);
                 // --- Fin Envío Simulado ---
 
             } else {
