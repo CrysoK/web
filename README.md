@@ -15,3 +15,9 @@ Este es mi portfolio personal, un sitio web creado para mostrar mis proyectos, h
   * Deshabilitación del botón de envío si el formulario no es válido.
   * Efecto de aparición suave (fade-in) en elementos al hacer scroll (usando Intersection Observer API).
   * Actualización dinámica del año en el footer.
+
+## Despliegue
+
+**GitHub Pages**: <https://crysok.github.io/web>
+
+**Vercel**: <https://web.crysok.com>

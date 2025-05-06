@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log('Email:', emailInput.value);
                 console.log('Mensaje:', mensajeInput.value);
 
-                formSuccessMessage.textContent = "¡Mensaje enviado con éxito! Gracias por contactarme."; // Mensaje personalizado
+                formSuccessMessage.textContent = "¡Mensaje enviado con éxito! Gracias por contactarte.";
                 formSuccessMessage.style.display = 'block';
 
                 // Limpiar y deshabilitar
